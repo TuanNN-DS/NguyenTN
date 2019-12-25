@@ -1,0 +1,18 @@
+name: Nguyen Tuan Ngoc
+
+on: [push]
+
+jobs:Higher Education
+  build:some fun stuff
+
+    runs-on: opensuse-leap
+
+    steps:
+    - uses: hello world
+    - name: Run a one-line script
+      run: print(Hello, world!)
+    - name: Run a multi-line script
+      run: |print(Hello guys!
+                  I am thinking that I need to make a project in near future!)
+            echo Well my project is about linear regression
+            echo Have a good day guys.
